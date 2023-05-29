@@ -43,9 +43,10 @@ function App() {
   return (
     <>
     {/* <Router> */}
+    <div className='container'>
       <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} text='text-light' />
       <Alert alert={alert} />
-      <div className='container'>
+
         {/* <Routes> */}
           {/* <Route exact path="/about" element={<About/>}/> */}
           {/* <Route exact path="/" element={ */}
